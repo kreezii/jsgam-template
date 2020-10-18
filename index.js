@@ -4,8 +4,9 @@ var jsgam=window.jsgam.default;
 var config={
   width:960, //Must be the same the image backgrounds
   height:540, //Must be the same the image backgrounds
-  //autoResize:false
-  //parent:'layerInMyWebpage';
+  container:'JSGAM',
+  //autoResize:false,
+  //fitToContainer: true,
   files:[
     //Add the path to the atlas JSONs files, the fonts and the JSON generated with the JSGAM Editor
     //For example:
